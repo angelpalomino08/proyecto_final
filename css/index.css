@@ -17,7 +17,6 @@
 
 .wrapper {
     display: flex;
-    width: 907px;
     padding: 16px 88px;
     flex-direction: column;
     align-items: flex-start;
@@ -70,4 +69,199 @@
     align-items: center;
     gap: 97px;
 
+}
+
+.main_content {
+    display: flex;
+    height: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.hero {
+
+    align-items: flex-start;
+    align-self: stretch;
+    
+}
+
+.hero .background-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.revista.ferrepat.com/wp-content/uploads/2018/04/trucos-de-carpinteria-1024x576.jpg);
+  border-radius: 20px;
+  background-size: cover;
+
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 160px 0 160px 0;
+  align-items: center;
+}
+
+.hero_content h1, p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.hero_butoom {
+  padding: 16px;
+  background-color: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.title_footer p {
+    color: var(--black, #212121);
+
+    /* web/paragraph-large-bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+.title_footer h4 {
+    color: var(--black, #212121);
+
+    /* web/h4-bold */
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.decripcion_footer p {
+    color: var(--black, #212121);
+
+    /* web/paragraph-large-regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.title_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.decripcion_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.tex h5 {
+    color: var(--black, #212121);
+
+    /* web/h5-bold */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+/*ponerle bordes*/
+.materiales_min {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.materiales_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.materiales {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.footer_content {
+    display: flex;
+    padding: 80px 0px;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+
+/*tops*/
+
+.trabajos_tex span {
+    color: var(--black, #212121);
+    text-align: center;
+
+    /* web/h5-regular */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.trabajos_tex h4 {
+    color: var(--black, #212121);
+    text-align: center;
+
+    /* web/h4-bold */
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.trabajos_tex p {
+    color: var(--black, #212121);
+    text-align: center;
+
+    /* web/paragraph-large-regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.trabajos_tex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.trabajos_content {
+    background-image: url(https://www.montajesaluviarte.com/wp-content/uploads/Ventanas.jpg);
+    height: 124px;
+    width: 124px;
+    border-radius: 20px;
+    background-size: cover;
 }
