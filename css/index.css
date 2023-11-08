@@ -3,6 +3,7 @@
     --black: #212121;
     --white: #ffffff;
     --blue: #1D3557;
+    --red: #E63946;
   }
 
 * {
@@ -394,6 +395,19 @@
     align-self: stretch;
 }
 
+.personal_trabajo img {
+    border-radius: 24px;
+    width: 312px;
+    height: 312px;
+    flex-shrink: 0;
+    display: flex;
+    width: 312px;
+    height: 312px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
 /*mejorar lo de arriba
 darle un mejor espacio y decorado */
 
@@ -429,7 +443,7 @@ darle un mejor espacio y decorado */
     align-self: stretch;
 }
 
-.pedidos_ya p {
+.pedidos_ya  {
     color: var(--white, #FFF);
     text-align: center;
 
@@ -439,4 +453,21 @@ darle un mejor espacio y decorado */
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+    border-radius: 8px;
+    background: var(--blue, #1D3557);
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.final_content {
+    display: flex;
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--red, #E63946);
 }
