@@ -29,6 +29,12 @@
     height: 100%;
 }
 
+.container_hacker {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-PJLmj8OAA-4JL71yjnj7wrqREXT1rVCC87SXBLOSU9i8uuBILM66jdHV0LEU0ZMXxc&usqp=CAU);
+    background-size: cover;
+    width: 100%;
+}
+
 .wrapper {
     display: flex;
     padding: 16px 88px;
@@ -82,6 +88,8 @@
     padding: 16px 0px;
     align-items: center;
     gap: 97px;
+    width: 100%;
+    justify-content: space-between;
 
 }
 
@@ -101,10 +109,10 @@
 }
 
 .hero .background-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://steamuserimages-a.akamaihd.net/ugc/933813375174251954/E70364C2F8661478D3D229BC774B09508C29CF1E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.art-consciousness.com/image0420/b3/b3ce70a14f129de36d231dcf3a499b9e.gif);
   border-radius: 20px;
   background-size: cover;
-
+  box-shadow: 0px 8px 24px rgb(0, 0, 0);
 }
 
 .hero_content {
@@ -176,9 +184,10 @@
     align-items: flex-start;
     gap: 24px;
     flex: 1 0 0;
-    background-color: #00FF7B;
+    background-color: var(--white);
     padding: 16px;
     border-radius: 16px;
+    box-shadow: 0px 8px 24px rgb(0, 0, 0);
 }
 
 .tex h5 {
@@ -201,12 +210,22 @@
 /*ponerle bordes*/
 .materiales_min {
     display: flex;
-    padding: 32px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
-    background-color: #00FF7B;
+    gap: 24px;
+    background-color: var(--white);
     padding: 16px;
+    border-radius: 16px;
+    width: 312px;
+    box-shadow: 0px 8px 24px rgb(0, 0, 0);
+}
+
+.materiales_min a {
+    text-decoration: none;
+}
+
+.materiales_min img {
+    width: 100%;
     border-radius: 16px;
 }
 
@@ -285,6 +304,7 @@
     width: 300px;
     border-radius: 20px;
     background-size: cover;
+    box-shadow: 0px 8px 24px rgb(0, 0, 0);
 }
 
 .trabajos_content h5 {
@@ -421,11 +441,11 @@
     height: 312px;
     flex-shrink: 0;
     display: flex;
-    width: 312px;
-    height: 312px;
+
     justify-content: center;
     align-items: center;
     padding: 32px;
+    
 }
 
 /*mejorar lo de arriba
@@ -490,4 +510,5 @@ darle un mejor espacio y decorado */
     align-self: stretch;
     border-radius: 24px;
     background: var(--red, #E63946);
+    box-shadow: 0px 8px 24px rgb(0, 0, 0);
 }
