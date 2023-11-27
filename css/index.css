@@ -61,20 +61,23 @@
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px; /* 150% */
+    text-decoration: none;
 }
 
 .Login {
-    text-decoration: none;
-    color: #000;
-
     /* web/paragraph-large-regular */
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px; /* 150% */
+    padding: 16px;
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
 }
 
 .item-menu {
@@ -82,6 +85,12 @@
     justify-content: space-between;
     gap: 32px;
 }
+
+.lista {
+    list-style: none;
+}
+
+
 
 .header_content {
     display: flex;
@@ -192,7 +201,6 @@
 
 .tex h5 {
     color: var(--black, #212121);
-
     /* web/h5-bold */
     font-family: Poppins;
     font-size: 20px;
@@ -200,10 +208,11 @@
     font-weight: 700;
     line-height: normal;
 }
+
 .tex {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 16px;
     align-self: stretch;
 }
@@ -224,7 +233,7 @@
     text-decoration: none;
 }
 
-/*ahora si*/
+
 
 .materiales_min img {
     width: 100%;
